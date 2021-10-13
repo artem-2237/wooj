@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.button_have-stock {
+    width: 168px;
+    height: 37px;
+    background-color: #00CA2C;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border-color: white;
+    border: 0;
+    margin-right: 10px;
+}
+
+.button_order {
+    width: 130px;
+    height: 37px;
+    background-color: #4B2EFF;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border-color: white;
+    border: 0;
+    margin-right: 10px;
+}
+
+.button_sales {
+    width: 100px;
+    height: 37px;
+    background-color: #FF2727;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border-color: white;
+    border: 0;
+}
