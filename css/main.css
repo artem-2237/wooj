@@ -152,6 +152,7 @@ a {
 /* footer */
 .footer-top {
     background-color: #FFD704;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer-top-wrapper {
     padding: 18px 0;
@@ -163,6 +164,8 @@ a {
 }
 .footer__contact-us {
     margin-left: 47px;
+    display: flex;
+    align-items: center;
 }
 .contact-us__text {
     margin-left: 9px;
@@ -226,7 +229,7 @@ a {
     line-height: 20px;
 }
 
-@media (max-width: 1499px) {
+@media (max-width: 1560px) {
     .container {
         width: 980px;
     }
@@ -238,7 +241,7 @@ a {
         width: 490px;
     }
 }
-@media (max-width: 1040px) {
+@media (max-width: 1115px) {
     .container {
         width: 720px;
     }
@@ -267,7 +270,7 @@ a {
         font-size: 10px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 860px) {
     .container {
         width: 460px;
     }
@@ -315,7 +318,7 @@ a {
         margin-bottom: 10px;
     }
 }
-@media (max-width: 499px) {
+@media (max-width: 600px) {
     .container {
         width: 290px;
     }
