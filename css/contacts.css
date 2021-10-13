@@ -1,0 +1,95 @@
+.contacts-section {
+    background-color: #000;
+}
+.form-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page-title_news {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 31px;
+}
+.contact-form {
+    position: relative;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+input {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 410px;
+    border: none;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: #000;
+}
+input:focus {
+    outline: none;
+}
+label {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    padding-left: 30px;
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+input:focus ~ label, input:valid ~ label {
+    top: -15px;
+    font-size: 14px;
+    color: #FFD704;
+}  
+.bar {
+    position: relative;
+    display: block;
+    width: 410px;
+}
+.bar:before, .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #FFD704;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+.bar:before {
+    left: 50%;
+}
+.bar:after {
+    right: 50%;
+}
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+    width: 50%;
+}
+.img-form {
+    padding-right: 30px;
+}
+.soc-title {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.social-block {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.soc-link {
+    padding-right: 20px;
+}
+.socials {
+    padding-bottom: 170px;
+}
