@@ -12,6 +12,9 @@
     display: flex;
     justify-content: space-between;
 }
+.text-h2 {
+    font-size: 30px;
+}
 .banner_block {
     width: 870px;
     height: 330px;
