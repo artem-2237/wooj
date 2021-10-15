@@ -328,3 +328,89 @@
 .icon-profile-nav {
     padding-right: 10px;
 }
+
+.user-info__block {
+    display: flex;
+}
+.form-block {
+    padding-right: 40px;
+}
+.btn-save-info {
+    width: 260px;
+    height: 50px;
+    background-color: #FFD704;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.user-information {
+    padding-top: 50px;
+}
+/*  */
+.user-info-form {
+    position: relative;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+.user_info-input {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 410px;
+    border: none;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.user_info-input:focus {
+    outline: none;
+}
+.name-label {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    padding-left: 30px;
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.user_info-input:focus ~ .name-label, .user_info-input:valid ~ .name-label {
+    display: none;
+    font-size: 14px;
+    color: #000000;
+}  
+.bar_form {
+    position: relative;
+    display: block;
+    width: 410px;
+}
+.bar_form:before, .bar_form:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #FFD704;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+.bar_form:before {
+    left: 50%;
+}
+.bar_form:after {
+    right: 50%;
+}
+input:focus ~ .bar_form:before,
+input:focus ~ .bar_form:after {
+    width: 50%;
+}
