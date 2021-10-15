@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/history.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrapper">
+                    <div class="header-nav">
+                        <a href="news.html" class="header-nav__item">Новости</a>
+                        <a href="contacts.html" class="header-nav__item">Контакты</a>
+                        <a href="#" class="header-nav__item">Вопрос ответ</a>
+                    </div>
+                    <div class="contacts">
+                        <a href="tel:+71234567890" class="contacts__link">
+                            <img src="img/header-footer/phone.svg" alt="phone" class="contacts__icon" width="19px" height="19px">
+                            <span class="contacts__phone">+7 123 456-78-90</span>
+                        </a>
+                        <span class="contacts__time">(c 05:00 до 00:00)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bot">
+            <div class="container">
+                <div class="header-bot-wrapper">
+                    <a href="index.html" class="header__logo-wrapper">
+                        <img src="img/header-footer/logo.png" alt="logo" class="header__logo">
+                    </a>
+                    <a href="catalog.html" class="header__catalog">Каталог</a>
+                    <div class="header__search-block">
+                        <input type="text" class="header__search-input" placeholder="Что вы ищете?">
+                        <button type="button" class="header__search-button">
+                            <img src="img/header-footer/search-icon.svg" alt="search" class="header__search-icon">
+                        </button>
+                    </div>
+                    <div class="header__menu">
+                        <a href="#" class="header__menu-link">
+                            <img src="img/header-footer/user-icon.svg" alt="user" class="header__menu-icon">
+                        </a>
+                        <a href="#" class="header__menu-link">
+                            <img src="img/header-footer/like-icon.svg" alt="like" class="header__menu-icon">
+                        </a>
+                        <a href="#" class="header__menu-link header__basket">
+                            <div class="basket-counter">1</div>
+                            <img src="img/header-footer/basket-icon.svg" alt="busket" class="header__menu-icon">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Крошки -->
+                <div class="wrap_area">
+                    <div class="home">
+                        <a href="index.html"><img src="/img/area/icon.svg" alt="home"></a>
+                    </div>
+                    <div class="next-page">
+                        <img src="/img/area/Right.svg" alt="nextpage">
+                    </div>
+                    <div class="page_area">
+                        <a href="#">Розн...</a>
+                    </div>
+                    <div class="next-page">
+                        <img src="/img/area/Right.svg" alt="nextpage">
+                    </div>
+                    <div class="page_area">
+                        <a href="#">....</a>
+                    </div>
+                    <div class="next-page">
+                        <img src="/img/area/Right.svg" alt="nextpage">
+                    </div>
+                    <div class="page_active">Каталог</div>
+                </div>
+                <!-- Крошки -->
+
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="profile-bar">
+            <div class="container">
+                <div class="container-profile-bar">
+                    <div class="profile-block">
+                        <div class="avatar-profile">
+                            <img src="img/favorite/ava.png" alt="avatar">
+                        </div>
+                        <div class="profile-info">
+                            <span class="user-name">Jane Cooper <a href="#"><img class="img-redaction" src="/img/favorite/pencil.svg" alt=""></a></span>
+                            <div class="bar">
+                                <img class="img-gold_bar" src="img/progressbar/gold.svg" alt="">
+                                <span class="gold-profile">Золото</span>
+                                <div id="progressbar-gold" class="bar-gold">
+                                    <div class="status-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-description">
+                            <span class="text-description">
+                                Объект индуцирует элементарный экситон. Поверхность, в согласии с традиционными представлениями,<br>
+                                притягивает фонон. Луч, несмотря на внешние воздействия, инвариантен относительно сдвига.<br>
+                                Кристаллическая решетка теоретически возможна. Газ, несмотря на<br>
+                                внешние воздействия, гомогенно испускает объект.
+                            </span>
+                        </div>
+                        <div class="user-cabinet">
+                            <span>Личный кабинет</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="favorite">
+            <div class="container">
+                    <div class="nav-section">
+                        <div class="button-navigation">
+                            <div class="navigation">
+                                <div class="button-profile_nav_active">
+                                    <a class="btn-profile-nav_active" href="history.html"><img class="icon-profile-nav" src="/img/history/auto.svg" alt="history"> История заказов</a>
+                                </div>
+                                <div class="button-profile_nav">
+                                    <a class="btn-profile-nav_main" href="favorite.html"><img class="icon-profile-nav" src="/img/history/favorite.svg" alt="favorite-products"> Избранные товары</a>
+                                </div>
+                                <div class="button-profile_nav">
+                                    <a class="btn-profile-nav_main" href="#"><img class="icon-profile-nav" src="/img/favorite/information.svg" alt="user-settings"> Персональные данные</a>
+                                </div>
+                                <div class="button-profile_nav">
+                                    <a class="btn-profile-nav_main" href="#"><img class="icon-profile-nav" src="/img/favorite/password.svg" alt="change-password"> Изменить пароль</a>
+                                </div>
+                                <div class="button-profile_nav">
+                                    <a class="btn-profile-nav_main" href="#"><img class="icon-profile-nav" src="/img/favorite/logout.svg" alt="logout"> Выход из аккаунта</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap">
+                            <div class="catalog-top">
+                                <div class="title-product-page">История заказов</div>
+                            </div>
+                        <div class="products">
+                            
+                        
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-block_category">
+                                    <div class="image-prod">
+                                        <a href="#" class="image-product">
+                                            <img src="/img/catalog/product.png" alt="product">
+                                        </a>
+                                    </div>
+                                    <div class="title-product">Домик Matteo Classic</div>
+                                    <div class="subtitle-product">Зеркало Matteo Classic 60x70 см</div>
+                                    <div class="product-button">
+                                        <span class="product-price">4990Р</span>
+                                        <button type="button" class="product-to-cart">В корзину</button>
+                                    </div>
+                                </div>
+
+                                <div class="pages">
+                                    <div class="pages-section">
+                                            <div class="before-product_page">
+                                                <img src="/img/catalog/left.svg" alt="nextpage">
+                                            </div>
+                                            <div class="number-page_product_active">
+                                                <a href="#">1</a>
+                                            </div>
+                                            <div class="number-page_product">
+                                                <a href="#">2</a>
+                                            </div>
+                                            <div class="number-page_product">
+                                                <a href="#">3</a>
+                                            </div>
+                                            <div class="number-page_product">
+                                                <a href="#">...</a>
+                                            </div>
+                                            <div class="number-page_product">
+                                                <a href="#">8</a>
+                                            </div>
+                                            <div class="number-page_product">
+                                                <a href="#">9</a>
+                                            </div>
+                                            <div class="number-page_product">
+                                                <a href="#">10</a>
+                                            </div>
+                                            <div class="next-product_page">
+                                                <img src="/img/catalog/right.svg" alt="nextpage">
+                                            </div>
+                                    </div> 
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer__text">
+                    <div class="contacts">
+                        <a href="tel:+71234567890" class="contacts__link">
+                            <img src="img/header-footer/phone.svg" alt="phone" class="contacts__icon" width="19px" height="19px">
+                            <span class="contacts__phone">+7 123 456-78-90</span>
+                        </a>
+                        <span class="contacts__time">(c 05:00 до 00:00)</span>
+                    </div>
+                    <a href="#" class="footer__contact-us">
+                        <img src="img/header-footer/map-point-icon.svg" alt="mail" class="contact-us__icon" width="20px">
+                        <span class="contact-us__text">Москва и область</span>
+                    </a>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="social-icon"><img src="img/header-footer/tg-icon.svg" alt="telegram"></a>
+                    <a href="#" class="social-icon"><img src="img/header-footer/fb-icon.svg" alt="facebook"></a>
+                    <a href="#" class="social-icon"><img src="img/header-footer/vk-icon.svg" alt="vk"></a>
+                    <a href="#" class="social-icon"><img src="img/header-footer/pint-icon.svg" alt="pinterest"></a>
+                    <a href="#" class="social-icon"><img src="img/header-footer/yt-icon.svg" alt="youtobe"></a>
+                    <a href="#" class="social-icon"><img src="img/header-footer/inst-icon.svg" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
