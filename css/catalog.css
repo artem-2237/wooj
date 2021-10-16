@@ -112,36 +112,6 @@
     box-shadow: 3px 2px 0px #FF2727;
 }
 
-/* Крошки */
-.pages {
-    display: flex;
-    justify-content: center;
-}
-.wrap_area {
-    display: flex;
-    align-items: center;
-    padding-bottom: 30px;
-    padding-top: 20px;
-}
-.home {
-    width: 30px;
-    height: 30px;
-    background-color: #FFD704;
-    margin-right: 15px;
-    text-align: center;
-    border-radius: 5px;
-}
-.home img {
-    padding-top: 6px;
-}
-.next-page {
-    margin-right: 15px;
-}
-.page_area a{
-    color: #9C9C9C;
-    padding-right: 15px;
-} 
-/* Крошки */
 
 .pages-section {
     color: #fff;
