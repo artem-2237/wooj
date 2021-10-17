@@ -78,3 +78,45 @@
 .fisrt-text_news {
     margin-right: 17px;
 }
+@media (max-width: 1560px) {
+    .news_block {
+        flex-direction: column;
+    }
+    .banner_block {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .description {
+        margin-bottom: 30px;
+    }
+    .description br {
+        display: none;
+    }
+}
+@media (max-width: 1115px) {
+    .banner_block {
+        width: 100%;
+    }
+    .banner-text_block {
+        padding: 20px;
+    }
+}
+@media (max-width: 860px) {
+    .banner-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .banner_block {
+        height: auto;
+        background-size: cover;
+        border-radius: 8px;
+    }
+    .banner-text_block {
+        height: 160px;
+    }
+}
+@media (max-width: 600px) {
+    .description {
+        line-height: 1.4;
+    }
+}

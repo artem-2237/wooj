@@ -1,0 +1,94 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.tab-buttons {
+    flex-basis: 290px;
+}
+.tab-buttons__tab {
+    width: 100%;
+    height: 73px;
+    padding: 27px 0;
+    color: #333333;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.tab-buttons__tab:hover {
+    background-color: #FFD704;;
+}
+.tab-buttons__tab_active {
+    background-color: #FFD704;;
+}
+.tab-content {
+    width: 1033px;
+    color: #fff;
+}
+.tab__title {
+    font-size: 23px;
+    margin-bottom: 36px;
+    font-weight: 400;
+} 
+.tab__text {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.tab__text:last-child {
+    margin-bottom: 33px;
+}
+.tab__next-wrapper {
+    text-align: right;
+    margin-bottom: 22px;
+}
+.tab__next {
+    cursor: pointer;
+}
+.tab__user {
+    display: flex;
+    align-items: center;
+}
+.tab__user-img {
+    margin-right: 25px;
+}
+.tab__user-text {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.tab__user-name {
+    font-size: 23px;
+}
+@media (max-width: 1560px) {
+    .tab-content {
+        width: 60%;
+    }
+}
+@media (max-width: 1115px) {
+    .tab-content {
+        width: 50%;
+    }
+    .tab__text {
+        font-size: 13px;
+    }
+}
+@media (max-width: 860px) {
+    .content {
+        flex-direction: column;
+    }
+    .tab-buttons {
+        margin-bottom: 40px;
+    }
+    .tab-content {
+        width: 100%;
+    }
+    .tab__text {
+        font-size: 15px;
+    }
+}
+

@@ -7,59 +7,83 @@
     <title>Document</title>
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/product-card.css">
 </head>
 <body>
     <!-- header -->
     <header class="header">
-        <div class="header-top">
-            <div class="container">
-                <div class="header-top-wrapper">
-                    <div class="header-nav">
-                        <a href="news.html" class="header-nav__item">Новости</a>
-                        <a href="#" class="header-nav__item">Контакты</a>
-                        <a href="#" class="header-nav__item">Вопрос ответ</a>
-                    </div>
-                    <div class="contacts">
-                        <a href="tel:+71234567890" class="contacts__link">
-                            <img src="img/header-footer/phone.svg" alt="phone" class="contacts__icon" width="19px" height="19px">
-                            <span class="contacts__phone">+7 123 456-78-90</span>
-                        </a>
-                        <span class="contacts__time">(c 05:00 до 00:00)</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-bot">
-            <div class="container">
-                <div class="header-bot-wrapper">
-                    <a href="index.html" class="header__logo-wrapper">
-                        <img src="img/header-footer/logo.png" alt="logo" class="header__logo">
-                    </a>
-                    <a href="#" class="header__catalog">Каталог</a>
-                    <div class="header__search-block">
-                        <input type="text" class="header__search-input" placeholder="Что вы ищете?">
-                        <button type="button" class="header__search-button">
-                            <img src="img/header-footer/search-icon.svg" alt="search" class="header__search-icon">
-                        </button>
-                    </div>
-                    <div class="header__menu">
-                        <a href="#" class="header__menu-link">
-                            <img src="img/header-footer/user-icon.svg" alt="user" class="header__menu-icon">
-                        </a>
-                        <a href="#" class="header__menu-link">
-                            <img src="img/header-footer/like-icon.svg" alt="like" class="header__menu-icon">
-                        </a>
-                        <a href="#" class="header__menu-link header__basket">
-                            <div class="basket-counter">1</div>
-                            <img src="img/header-footer/basket-icon.svg" alt="busket" class="header__menu-icon">
-                        </a>
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-wrapper">
+                        <div class="header-nav">
+                            <a href="news.html" class="header-nav__item">Новости</a>
+                            <a href="contacts.html" class="header-nav__item">Контакты</a>
+                            <a href="FAQ.html" class="header-nav__item">Вопрос ответ</a>
+                        </div>
+                        <div class="contacts">
+                            <a href="tel:+71234567890" class="contacts__link">
+                                <img src="img/header-footer/phone.svg" alt="phone" class="contacts__icon" width="19px" height="19px">
+                                <span class="contacts__phone">+7 123 456-78-90</span>
+                            </a>
+                            <span class="contacts__time">(c 05:00 до 00:00)</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+            <div class="header-bot">
+                <div class="container">
+                    <div class="header-bot-wrapper">
+                        <a href="index.html" class="header__logo-wrapper">
+                            <img src="img/header-footer/logo.png" alt="logo" class="header__logo">
+                        </a>
+                        <a href="catalog.html" class="header__catalog">Каталог</a>
+                        <div class="header__search-block">
+                            <input type="text" class="header__search-input" placeholder="Что вы ищете?">
+                            <button type="button" class="header__search-button">
+                                <img src="img/header-footer/search-icon.svg" alt="search" class="header__search-icon">
+                            </button>
+                        </div>
+                        <div class="header__menu">
+                            <a href="profile/user-information.html" class="header__menu-link">
+                                <img src="img/header-footer/user-icon.svg" alt="user" class="header__menu-icon">
+                            </a>
+                            <a href="profile/favorite.html" class="header__menu-link">
+                                <img src="img/header-footer/like-icon.svg" alt="like" class="header__menu-icon">
+                            </a>
+                            <a href="basket.html" class="header__menu-link header__basket">
+                                <div class="basket-counter">1</div>
+                                <img src="img/header-footer/basket-icon.svg" alt="busket" class="header__menu-icon">
+                            </a>
+                        </div>
+                    </div>
+    
+                    <!-- Крошки -->
+                    <div class="wrap_area">
+                        <div class="home">
+                            <a href="index.html"><img src="img/area/icon.svg" alt="home"></a>
+                        </div>
+                        <div class="next-page">
+                            <img src="img/area/Right.svg" alt="nextpage">
+                        </div>
+                        <div class="page_area">
+                            <a href="#">Розн...</a>
+                        </div>
+                        <div class="next-page">
+                            <img src="img/area/Right.svg" alt="nextpage">
+                        </div>
+                        <div class="page_area">
+                            <a href="#">....</a>
+                        </div>
+                        <div class="next-page">
+                            <img src="img/area/Right.svg" alt="nextpage">
+                        </div>
+                        <div class="page_active">Каталог</div>
+                    </div>
+                </div>
+            </div>
+</header>
     <!-- main -->
     <main class="main">
         <div class="container">
@@ -198,6 +222,236 @@
                     <div class="info__tab-specifications info__tab">
                         Характеристики
                     </div>
+                </div>
+            </section>
+            <!-- section same -->
+            <section class="same">
+                <h2 class="section__title">
+                    Похожие товары
+                </h2>
+    
+                <div class="stock-slider">
+                    
+                    <div class="stock-slider-wrapper swiper-wrapper">
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+                    </div>
+    
+                    <div class="stock-slider__prevArr slider-arrow-left swiper-button-prev">
+                    </div>
+                    <div class="stock-slider__nextArr slider-arrow-right swiper-button-next">
+                    </div>
+                    
+                    <div class="stock-slider__scrollbar swiper-scrollbar"></div>
+                    
+                </div>
+            </section>
+            <!-- section popular -->
+            <section class="popular">
+                <h2 class="section__title">
+                    Популярные товары
+                </h2>
+    
+                <div class="stock-slider">
+                    
+                    <div class="stock-slider-wrapper swiper-wrapper">
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+    
+                        <div class="stock-slider__item swiper-slide">
+                            <img src="img/index/stock-item.jpg" alt="" class="stock-slider__img">
+                            <h3 class="stock-slider__title">Зеркало Matteo Classic</h3>
+                            <span class="stock-slider__description">Зеркало Matteo Classic 60x70 см</span>
+                            <span class="stock-slider__price">4990&#8381;</span>
+                            <button type="button" class="stock-slider__button">В корзину</button>
+                        </div>
+                    </div>
+    
+                    <div class="stock-slider__prevArr slider-arrow-left swiper-button-prev">
+                    </div>
+                    <div class="stock-slider__nextArr slider-arrow-right swiper-button-next">
+                    </div>
+                    
+                    <div class="stock-slider__scrollbar swiper-scrollbar"></div>
+                    
                 </div>
             </section>
         </div>

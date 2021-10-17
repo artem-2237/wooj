@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/basket.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="header-top-wrapper">
+                            <div class="header-nav">
+                                <a href="news.html" class="header-nav__item">Новости</a>
+                                <a href="contacts.html" class="header-nav__item">Контакты</a>
+                                <a href="FAQ.html" class="header-nav__item">Вопрос ответ</a>
+                            </div>
+                            <div class="contacts">
+                                <a href="tel:+71234567890" class="contacts__link">
+                                    <img src="img/header-footer/phone.svg" alt="phone" class="contacts__icon" width="19px" height="19px">
+                                    <span class="contacts__phone">+7 123 456-78-90</span>
+                                </a>
+                                <span class="contacts__time">(c 05:00 до 00:00)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bot">
+                    <div class="container">
+                        <div class="header-bot-wrapper">
+                            <a href="index.html" class="header__logo-wrapper">
+                                <img src="img/header-footer/logo.png" alt="logo" class="header__logo">
+                            </a>
+                            <a href="catalog.html" class="header__catalog">Каталог</a>
+                            <div class="header__search-block">
+                                <input type="text" class="header__search-input" placeholder="Что вы ищете?">
+                                <button type="button" class="header__search-button">
+                                    <img src="img/header-footer/search-icon.svg" alt="search" class="header__search-icon">
+                                </button>
+                            </div>
+                            <div class="header__menu">
+                                <a href="profile/user-information.html" class="header__menu-link">
+                                    <img src="img/header-footer/user-icon.svg" alt="user" class="header__menu-icon">
+                                </a>
+                                <a href="profile/favorite.html" class="header__menu-link">
+                                    <img src="img/header-footer/like-icon.svg" alt="like" class="header__menu-icon">
+                                </a>
+                                <a href="basket.html" class="header__menu-link header__basket">
+                                    <div class="basket-counter">1</div>
+                                    <img src="img/header-footer/basket-icon.svg" alt="busket" class="header__menu-icon">
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Крошки -->
+                        <div class="wrap_area">
+                            <div class="home">
+                                <a href="index.html"><img src="img/area/icon.svg" alt="home"></a>
+                            </div>
+                            <div class="next-page">
+                                <img src="img/area/Right.svg" alt="nextpage">
+                            </div>
+                            <div class="page_area">
+                                <a href="#">Розн...</a>
+                            </div>
+                            <div class="next-page">
+                                <img src="img/area/Right.svg" alt="nextpage">
+                            </div>
+                            <div class="page_area">
+                                <a href="#">....</a>
+                            </div>
+                            <div class="next-page">
+                                <img src="img/area/Right.svg" alt="nextpage">
+                            </div>
+                            <div class="page_active">Каталог</div>
+                        </div>
+                    </div>
+                </div>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <div class="container">
+            <h1 class="title">Корзина</h1>
+            <span class="subtitle">5 товаров</span>
+            <div class="content">
+                <div class="left">
+                    <div class="basket-list">
+                        <div class="product">
+                            <img src="img/basket/product.png" alt="product" class="product__photo">
+                            <div class="product__info">
+                                <h2 class="product__title">Домик Matteo Classic</h2>
+                                <span class="product__in-stock">в наличии: 
+                                    <span class="product__in-stock_count">264 шт.</span>
+                                </span>
+                                <span class="product__size">Размер: 
+                                    <span class="product__size_count">20,5 см</span>
+                                </span>
+                                <div class="product__count-block">
+                                    <div class="product__count-select">
+                                        <button class="product__count-dec-button">
+                                            -
+                                        </button>
+                                        <span class="product__count">1</span>
+                                        <button class="product__count-inc-button">
+                                            +
+                                        </button>
+                                    </div>
+                                    <h4 class="product__price"> 123 900&#8381;/шт</h4>
+                                </div>
+                                <img src="img/basket/close-icon.svg" alt="close" class="product__close" width="15px" height="15px">
+                            </div>
+                        </div>
+                        <div class="product">
+                                <img src="img/basket/product.png" alt="product" class="product__photo">
+                                <div class="product__info">
+                                    <h2 class="product__title">Домик Matteo Classic</h2>
+                                    <span class="product__in-stock">в наличии: 
+                                        <span class="product__in-stock_count">264 шт.</span>
+                                    </span>
+                                    <span class="product__size">Размер: 
+                                        <span class="product__size_count">20,5 см</span>
+                                    </span>
+                                    <div class="product__count-block">
+                                        <div class="product__count-select">
+                                            <button class="product__count-dec-button">
+                                                -
+                                            </button>
+                                            <span class="product__count">1</span>
+                                            <button class="product__count-inc-button">
+                                                +
+                                            </button>
+                                        </div>
+                                        <h4 class="product__price"> 123 900&#8381;/шт</h4>
+                                    </div>
+                                    <img src="img/basket/close-icon.svg" alt="close" class="product__close" width="15px" height="15px">
+                                </div>
+                        </div>
+                        <div class="product">
+                                <img src="img/basket/product.png" alt="product" class="product__photo">
+                                <div class="product__info">
+                                    <h2 class="product__title">Домик Matteo Classic</h2>
+                                    <span class="product__in-stock">в наличии: 
+                                        <span class="product__in-stock_count">264 шт.</span>
+                                    </span>
+                                    <span class="product__size">Размер: 
+                                        <span class="product__size_count">20,5 см</span>
+                                    </span>
+                                    <div class="product__count-block">
+                                        <div class="product__count-select">
+                                            <button class="product__count-dec-button">
+                                                -
+                                            </button>
+                                            <span class="product__count">1</span>
+                                            <button class="product__count-inc-button">
+                                                +
+                                            </button>
+                                        </div>
+                                        <h4 class="product__price"> 123 900&#8381;/шт</h4>
+                                    </div>
+                                    <img src="img/basket/close-icon.svg" alt="close" class="product__close" width="15px" height="15px">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order">
+                    <div class="order-info">
+                        <div class="order__head">
+                            <div>
+                                <h4 class="order__title">Итого:</h4>
+                                <span class="order__sum-first">45 980&#8381;</span>
+                                <span class="order__discount">430 руб</span>
+                            </div>
+                            <span class="order__discount-icon">-15%</span>
+                        </div>
+                        <span class="order__subtitle">ВАШ ЗАКАЗ</span>
+                        <div class="order__count-block">
+                            <span class="order__count-text">Всего товаров</span>
+                            <span class="order__count-count">20</span>
+                        </div>
+                        <div class="order__sum-block">
+                            <span class="order__sum-text">Сумма</span>
+                            <span class="order__sum-second">45 980&#8381;</span>
+                        </div>
+                        <span class="order__delivery">
+                            От 3000 рублей бесплатная доставка по Украине
+                        </span>
+                    </div>
+                    <button class="order__accept">Оформить заказ</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer__text">
+                        <div class="contacts">
+                            <a href="tel:+71234567890" class="contacts__link">
+                                <img src="img/header-footer/phone.svg" alt="phone" class="contacts__icon" width="19px" height="19px">
+                                <span class="contacts__phone">+7 123 456-78-90</span>
+                            </a>
+                            <span class="contacts__time">(c 05:00 до 00:00)</span>
+                        </div>
+                        <a href="#" class="footer__contact-us">
+                            <img src="img/header-footer/map-point-icon.svg" alt="mail" class="contact-us__icon" width="20px">
+                            <span class="contact-us__text">Москва и область</span>
+                        </a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="social-icon"><img src="img/header-footer/tg-icon.svg" alt="telegram"></a>
+                        <a href="#" class="social-icon"><img src="img/header-footer/fb-icon.svg" alt="facebook"></a>
+                        <a href="#" class="social-icon"><img src="img/header-footer/vk-icon.svg" alt="vk"></a>
+                        <a href="#" class="social-icon"><img src="img/header-footer/pint-icon.svg" alt="pinterest"></a>
+                        <a href="#" class="social-icon"><img src="img/header-footer/yt-icon.svg" alt="youtobe"></a>
+                        <a href="#" class="social-icon"><img src="img/header-footer/inst-icon.svg" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
