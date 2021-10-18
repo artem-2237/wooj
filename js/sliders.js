@@ -16,8 +16,8 @@ $('#info-slider').slick({
 
 $('#popup-slider').slick({
     infinite: true,
-    nextArrow: $('.info-slider__arrow-right'),
-    prevArrow: $('.info-slider__arrow-left'),
+    nextArrow: $('#popup-next'),
+    prevArrow: $('#popup-prev'),
     dots: true,
     dotsClass: 'info-slider__dots'
 });

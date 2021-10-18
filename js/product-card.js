@@ -30,9 +30,12 @@ $('.info__tabs > div').click(function(){
         break;
     }
 })
+
 $('.slick-list').click(function() {
-    $('.popup').css('display', 'block');
+    $('.popup').css('z-index', '9999');
+    $('.popup').css('opacity', '1');
 });
 $('.popup__close').click(function() {
-    $('.popup').css('display', 'none');
+    $('.popup').css('z-index', '-1');
+    $('.popup').css('opacity', '0');
 })
