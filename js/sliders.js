@@ -28,5 +28,16 @@ const stockSlider = new Swiper('.stock-slider', {
     },
     scrollbar: {
         el: '.stock-slider__scrollbar', 
+    },
+    breakpoints: {
+        1560: {
+            slidesPerView: 3,
+        },
+        860: {
+            slidesPerView: 2,
+        },
+        320: {
+            slidesPerView: 1,
+        }
     }
 })
