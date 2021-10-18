@@ -30,3 +30,9 @@ $('.info__tabs > div').click(function(){
         break;
     }
 })
+$('.slick-list').click(function() {
+    $('.popup').css('display', 'block');
+});
+$('.popup__close').click(function() {
+    $('.popup').css('display', 'none');
+})

@@ -14,6 +14,14 @@ $('#info-slider').slick({
     dotsClass: 'info-slider__dots'
 });
 
+$('#popup-slider').slick({
+    infinite: true,
+    nextArrow: $('.info-slider__arrow-right'),
+    prevArrow: $('.info-slider__arrow-left'),
+    dots: true,
+    dotsClass: 'info-slider__dots'
+});
+
 const stockSlider = new Swiper('.stock-slider', {
     direction: 'horizontal',
     loop: false,
